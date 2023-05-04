@@ -1,8 +1,7 @@
 #include "Thrust.h"
 int DIR = 1;//directia initiala se considera inainte
 void mvForward(int speed){
-  //digitalWrite(ENPIN, HIGH);
-  delay(100);
+  //digitalWrite(ENPIN, ≈x  delay(100);
   int speedToMotor = map(speed, 0, 10, 0, 255);
   if(DIR==1){
       digitalWrite(DIRPIN_F, HIGH);//seteaza directia de rotatie
